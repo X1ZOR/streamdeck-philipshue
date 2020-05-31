@@ -194,7 +194,7 @@ function Bridge(ip = null, id = null, username = null) {
 
 // Static function to discover bridges
 Bridge.discover = function(callback) {
-    var url = "https://discovery.meethue.com";
+    var url = "https://dresden-light.appspot.com/discover";
     var xhr = new XMLHttpRequest();
     xhr.responseType = 'json';
     xhr.open("GET", url, true);
